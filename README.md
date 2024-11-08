@@ -41,6 +41,7 @@ python3 -m sam.samviewer
 - `--gbg`: $GBG_{class}$
 - `--data`: $Data_{class}$
 - `--pw`: Custom password to hash & encrypt for every user found.
+- `--output`: Path for output file
 
 ### Known issues
 - Custom password hashing not extensively tested yet. `--pw` argument might return wrong hash for now.
